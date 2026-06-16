@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+```text
+   # Force GitHub to scan all C# files regardless of how deep they are hidden
+   *.cs linguist-detectable=true
+   
+   # Tell GitHub to treat Unity scenes, metadata, and assets as binary/noise so they don't drown out your code stats
+   *.meta linguist-vendored
+   *.asset linguist-vendored
+   *.unity linguist-vendored
+   *.prefab linguist-vendored
