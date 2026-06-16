@@ -35,11 +35,11 @@
 ### 📸 Gameplay & Systems Showcase
 
 <p align="center">
-  <img src="Images/0.png" width="48%" />
-  <img src="Images/1.png" width="48%" />
+  <img src="images/0.png" width="48%" />
+  <img src="images/1.png" width="48%" />
 </p>
 <p align="center">
-  <img src="Images/2.PNG" width="100%" />
+  <img src="images/2.PNG" width="100%" />
 </p>
 
 ---
