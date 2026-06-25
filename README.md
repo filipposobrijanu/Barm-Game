@@ -13,16 +13,14 @@
 
 ---
 
-### ✨ Core Features
+### Core Features
 
 * **Recoil-Driven Propulsion Vector:** Leverages Unity's 2D physics engine (`Rigidbody2D` velocity modifiers and impulse mapping) to translate weapon firing into an inverse kinetic thrust. Firing a shot acts as the primary movement engine, sending the player flying backwards to navigate the screen.
-* **Dynamic Ammunition State Pipeline:** Implements an atomic tracking architecture initializing the player with a strict 3-bullet capacity constraint. The system handles floating interactive item drops, processing real-time trigger boundaries to capture collectibles and safely increment the ammo counter.
-* **Procedural Hazard Downward Cascades:** Orchestrates an automated spawning pattern that drops volatile obstacle components from random horizontal indices above the camera viewport down to the lower boundary screen matrix.
-* **Failure State Routine Validation:** Controls precise layer-based collision matrices to separate harmless item pick-ups from high-fatality falling hazards. Intercepting a falling obstacle cleanly halts physics updates and safely routes engine state into a responsive Game Over UI wrapper.
+* **Procedural Obstacles Downward:** Orchestrates an automated spawning pattern that drops obstacle components from random horizontal indices above the camera viewport down to the lower boundary screen.
 
 ---
 
-### 🛠️ Development Stack
+### Development Stack
 
 **Game Engine & Logic**
 <p align="left">
@@ -32,7 +30,7 @@
 
 ---
 
-### 📸 Gameplay & Systems Showcase
+### Gameplay & Systems Showcase
 
 <p align="center">
   <img src="images/0.png" width="48%" />
@@ -44,7 +42,7 @@
 
 ---
 
-### 🚀 How to Run & Build
+### How to Run & Build
 
 **1. Clone the repository:**
 ```bash
